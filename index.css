@@ -1,0 +1,98 @@
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+
+/* start of the main container */
+
+.container {
+    width: 580px;
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: #1B244A;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+/* end of the main container */
+
+/* start of the score box */
+
+.score {
+    width: 155px;
+    height: 120px;
+    margin-top: -70px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    line-height: 127px;
+    background: #080001;
+    color: #F94F6D;
+}
+
+#guest-points {
+    color: rgb(35, 153, 35);
+}
+
+/* end of the score box */
+
+/* start of buttons */
+
+.container-btn {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+
+.score-btn:hover {
+    text-shadow: 0 0 10px black;
+
+}
+
+#reset-btn {
+    margin: auto 0;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c2445;
+    background: #9AABD8;
+    border-radius: 5px;
+    border: none;
+}
+
+/* end of buttons */
+
+#timer {
+    width: 280px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ced5e7;
+    display: flex;
+    justify-content: center;
+}
